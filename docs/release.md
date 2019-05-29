@@ -99,7 +99,7 @@ remote: error: GH006: Protected branch update failed for refs/heads/master.
 remote: error: Required status check "cla/google" is expected. At least one approved review is required by reviewers with write access.
 To github.com:material-components/material-components-web-react.git
 ! [remote rejected]   master -> master (protected branch hook declined)
-You may need to update Github's master branch protection:
+You may need to update GitHub's master branch protection:
 ```
 > 1. Go to: settings page
 > 1. Uncheck Include administrators
@@ -113,7 +113,7 @@ These steps can be done anytime after the release. But should be taken care of b
 
 #### Create new RC Branch
 
-If it hasn't already been done, you will need to create a new RC branch. If the next release is v0.8.0, create a branch named `rc0.8.0` and push this to the Github repository for everyone to branch from. Once complete follow the remaining checklist items:
+If it hasn't already been done, you will need to create a new RC branch. If the next release is v0.8.0, create a branch named `rc0.8.0` and push this to the GitHub repository for everyone to branch from. Once complete follow the remaining checklist items:
 
 * [ ] [Add a new protection rule](https://github.com/material-components/material-components-web-react/settings/branch_protection_rules/new) to the RC Branch.
   * branch name should match new RC branch name.

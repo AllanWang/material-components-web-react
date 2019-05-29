@@ -97,7 +97,7 @@ npm install @material/react-button
 
 If you want to use the compiled CSS and not customize any colors, text, etc. you can skip to [Step 3a](#step-3a-use-compiled-css).
 
-Most likely you'll want to start using the [Sass mixins](https://github.com/material-components/material-components-web/blob/master/docs/code/architecture.md#sass) to customize your app. MDC Sass files are not supported out of the box, since we do not prepend `~` to our module imports. See this [Github issue](https://github.com/facebook/create-react-app/issues/4494#issuecomment-428531848) explaining the issue in detail. There is a workaround, but requires some work on your end (we promise it is not too difficult).
+Most likely you'll want to start using the [Sass mixins](https://github.com/material-components/material-components-web/blob/master/docs/code/architecture.md#sass) to customize your app. MDC Sass files are not supported out of the box, since we do not prepend `~` to our module imports. See this [GitHub issue](https://github.com/facebook/create-react-app/issues/4494#issuecomment-428531848) explaining the issue in detail. There is a workaround, but requires some work on your end (we promise it is not too difficult).
 
 ##### Add environment variable
 
@@ -194,4 +194,4 @@ You can also use these same configurations for your own Webpack build pipeline w
 
 ## Need help
 
-We're constantly trying to improve our components. If Github Issues don't fit your needs, then please visit us on our [Discord Channel](https://discord.gg/material-components).
+We're constantly trying to improve our components. If GitHub Issues don't fit your needs, then please visit us on our [Discord Channel](https://discord.gg/material-components).
